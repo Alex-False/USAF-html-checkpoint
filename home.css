@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #343A40;
+
+  width: 100%;
+}
+
+header h2 {
+  color: white;
+
+  padding: 1rem;
+
+  font-weight: 200;
+}
+
+.GMDB__navbar {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.GMDB__navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.GMDB__navbar-links a {
+  padding: 0rem .5rem;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.GMDB__navbar-links a:current {
+  color: #CCCECF;
+}
+
+.GMDB__navbar-search{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  width: auto;
+  margin-left: 65rem;
+}
+
+.GMDB__navbar-search-button button {
+  background-color: #343A40;
+  border-color: #FFC108;
+  color: #FFC108;
+
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.GMDB__navbar-search-bar {
+  padding-right: .5rem;
+}
+
+.GMDB__navbar-search-bar input {
+  border-radius: 5px;
+  padding: .5rem;
+
+  border-width:0 ;
+}
+
+.GMDB__grid-container {
+
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+
+}
+
+.GMDB__grid-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  row-gap: 75px;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.GMDB__grid-items img {
+  width: 350px;
+  height: 550px;
+
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  transition: all .2s ease-in-out;
+}
+
+.GMDB__grid-items img:hover {
+  transform: scale(1.05);
+
+}

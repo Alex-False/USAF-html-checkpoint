@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #343A40;
+
+  width: 100%;
+}
+
+header h2 {
+  color: white;
+
+  padding: 1rem;
+
+  font-weight: 200;
+}
+
+.GMDB__navbar {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.GMDB__navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.GMDB__navbar-links a {
+  padding: 0rem .5rem;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.GMDB__navbar-links a:current {
+  color: #CCCECF;
+}
+
+.GMDB__navbar-search{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  width: auto;
+  margin-left: 65rem;
+}
+
+.GMDB__navbar-search-button button {
+  background-color: #343A40;
+  border-color: #FFC108;
+  color: #FFC108;
+
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.GMDB__navbar-search-bar {
+  padding-right: .5rem;
+}
+
+.GMDB__navbar-search-bar input {
+  border-radius: 5px;
+  padding: .5rem;
+
+  border-width:0 ;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 3rem;
+}
+
+form h1 {
+  color: #343A40;
+}
+
+.GMDB__form-email {
+  padding: 1rem;
+
+}
+
+.GMDB__form-email p {
+  padding-bottom: .75rem;
+
+  font-weight: 600;
+}
+
+.GMDB__form-email input {
+width: 700px;
+
+padding: .8rem;
+
+border-radius: 5px;
+border-width: 1px;
+border-style: solid;
+border-color: slategray;
+}
+
+.GMDB__form-password {
+  padding: 1rem;
+
+}
+
+.GMDB__form-password p {
+  padding-bottom: .75rem;
+
+  font-weight: 600;
+}
+
+.GMDB__form-password input {
+  width: 700px;
+
+  padding: .8rem;
+
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: slategray;
+
+}
+
+.GMDB__form-button {
+  padding: 2rem 0rem;
+  padding-right: 40.8rem;
+
+}
+
+.GMDB__form-button button {
+  background-color: #007BFF;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 18px;
+
+  padding: .8rem 1rem;
+}

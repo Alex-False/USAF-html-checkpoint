@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #343A40;
+
+  width: 100%;
+}
+
+header h2 {
+  color: white;
+
+  padding: 1rem;
+
+  font-weight: 200;
+}
+
+.GMDB__navbar {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.GMDB__navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.GMDB__navbar-links a {
+  padding: 0rem .5rem;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.GMDB__navbar-links a:current {
+  color: #CCCECF;
+}
+
+.GMDB__navbar-search{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  width: auto;
+  margin-left: 65rem;
+}
+
+.GMDB__navbar-search-button button {
+  background-color: #343A40;
+  border-color: #FFC108;
+  color: #FFC108;
+
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.GMDB__navbar-search-bar {
+  padding-right: .5rem;
+}
+
+.GMDB__navbar-search-bar input {
+  border-radius: 5px;
+  padding: .5rem;
+
+  border-width:0 ;
+}
+
+.GMDB__backbar {
+  background-color: #6D757D;
+
+  margin: .5rem 0rem;
+
+  border-radius: 5px;
+}
+
+.GMDB__backbar a{
+  padding: 1rem;
+
+  color: #FFC108;
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.GMDB__backbar p{
+  padding-left: 1rem;
+}
+
+.GMDB__info-container {
+  padding-top: .5rem;
+
+  display: flex;
+}
+
+.GMDB__info-img img{
+  width: 325px;
+  height: 450px;
+}
+
+.GMDB__info-description {
+  padding-left: 1rem;
+}
+
+.GMDB__info-description h1, h2{
+  padding-bottom: .5rem;
+}
+
+.GMDB__info-description h3{
+  padding-bottom: 1rem;
+
+  font-weight: 100;
+}
+
+.GMDB__commentform {
+  padding: 1.5rem 1rem;
+
+}
+
+.GMDB__commentform-input input {
+  padding: .6rem 1rem;
+
+  border-radius: 3px;
+  border-width: .5px;
+  border-color: #6D757D;
+}
+
+.GMDB__commentform-button {
+  padding-top: 3rem;
+}
+
+.GMDB__commentform-button button {
+  padding: .6rem .9rem;
+
+  background-color: #007BFF;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 18px;
+}
